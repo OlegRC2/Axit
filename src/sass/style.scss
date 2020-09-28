@@ -1,0 +1,13 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/fonts';
+@import 'libs/animate';
+
+@import 'base/variables';
+
+.container {
+    position: relative;
+    max-width: 1100px;
+    margin: 0 auto;
+} 
+
+@import 'blocks/promo';
