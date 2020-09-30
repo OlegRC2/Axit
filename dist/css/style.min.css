@@ -3018,3 +3018,186 @@ template {
       opacity: 0.69;
       color: #ffffff;
       text-decoration: none; }
+
+.social {
+  background-color: #ffffff;
+  min-height: 105px;
+  z-index: 3; }
+  .social .container {
+    position: relative; }
+  .social__title {
+    color: #333333;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 22px; }
+  .social__subtitle {
+    width: 360px;
+    color: #86878b;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 12px; }
+  .social__icons {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    top: 29px;
+    right: 25px;
+    width: 634px;
+    height: 46px; }
+  .social__icon {
+    width: 46px;
+    height: 46px;
+    transition: filter .3s ease-in-out;
+    filter: grayscale(99%); }
+  .social__item :hover {
+    filter: grayscale(0%); }
+  .social__shadow {
+    min-height: 102px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.38); }
+
+.tabs {
+  min-height: 595px;
+  background-color: #f5f5f5; }
+  .tabs__full-content-wrapper {
+    display: flex;
+    justify-content: space-between; }
+  .tabs__tabs-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-top: 146px; }
+    .tabs__tabs-wrapper :first-child {
+      border-radius: 4px 4px 0 0; }
+    .tabs__tabs-wrapper :last-child {
+      border-radius: 0 0 4px 4px; }
+  .tabs__tab-item {
+    position: relative;
+    width: 112px;
+    height: 112px;
+    background-color: #333333;
+    margin-top: 1px;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 20px;
+    text-transform: uppercase;
+    cursor: pointer; }
+    .tabs__tab-item span {
+      margin: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      margin-right: -50%;
+      transform: translate(-50%, -50%); }
+  .tabs__tab-item_active {
+    background-color: #ff8b38; }
+  .tabs__content {
+    display: none;
+    width: 476px;
+    margin-top: 155px; }
+  .tabs__title {
+    color: #000000;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 700; }
+  .tabs__descr {
+    margin-top: 55px;
+    color: #86878b;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px; }
+  .tabs .btn_main-color {
+    width: 121px;
+    height: 46px;
+    background-color: #ff8b38;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-family: "Open Sans";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 51px; }
+  .tabs__image {
+    display: none;
+    margin-top: 171px; }
+
+.sub-list {
+  min-height: 596px;
+  background-color: #ffffff; }
+  .sub-list img {
+    position: absolute;
+    margin-top: 4px; }
+  .sub-list__title {
+    margin-top: 107px;
+    margin-left: 670px;
+    color: #212121;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 43px; }
+  .sub-list .line {
+    margin-top: 29px;
+    margin-left: 670px; }
+  .sub-list__subtitle {
+    margin-top: 30px;
+    margin-left: 670px;
+    text-align: justify;
+    color: #86878b;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px; }
+  .sub-list__icon-with-text-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 420px;
+    margin-top: 46px;
+    margin-left: 670px; }
+  .sub-list__round {
+    width: 74px;
+    height: 44px;
+    border: 2px solid #ff8b38;
+    border-radius: 50%;
+    position: relative; }
+  .sub-list__icon {
+    width: 40px;
+    height: 23px;
+    margin: 0 auto;
+    top: 50%;
+    transform: translateY(-71%); }
+  .sub-list__text {
+    color: #212121;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    text-align: justify;
+    margin-left: 31px; }
+    .sub-list__text span {
+      color: #86878b;
+      font-family: "Open Sans";
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 20px; }
+
+.active {
+  display: block; }
+
+.line {
+  border: none;
+  height: 2px;
+  width: 74px;
+  margin-top: 36px; }
+
+.white {
+  background-color: white;
+  color: white; }
+
+.main-color {
+  background-color: #ff8b38;
+  color: #ff8b38; }

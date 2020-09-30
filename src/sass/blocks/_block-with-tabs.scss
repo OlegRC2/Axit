@@ -1,0 +1,80 @@
+.tabs {
+    min-height: 595px;
+    background-color: #f5f5f5;
+    &__full-content-wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__tabs-wrapper {
+        display: flex;
+        flex-direction: column;
+        margin-top: 146px;
+        :first-child {
+            border-radius: 4px 4px 0 0;
+        }
+        :last-child {
+            border-radius: 0 0 4px 4px;
+        }
+    }
+    &__tab-item {
+        position: relative;
+        width: 112px;
+        height: 112px;
+        background-color: $price-color;
+        margin-top: 1px;
+        color: #ffffff;
+        font-family: "Open Sans";
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 20px;
+        text-transform: uppercase;
+        cursor: pointer;
+        span {
+            margin: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-right: -50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+    &__tab-item_active {
+        background-color: $main-color;
+    }
+    &__content {
+        display: none;
+        width: 476px;
+        margin-top: 155px;
+    }
+    &__title {
+        color: #000000;
+        font-family: "Open Sans";
+        font-size: 20px;
+        font-weight: 700;
+    }
+    &__descr {
+        margin-top: 55px;
+        color: #86878b;
+        font-family: "Open Sans";
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+    }
+    .btn_main-color {
+        width: 121px;
+        height: 46px;
+        background-color: $main-color;
+        border: none;
+        border-radius: 5px;
+        color: #fff;
+        font-family: "Open Sans";
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 20px;
+        margin-top: 51px;
+    }
+    &__image {
+        display: none;
+        margin-top: 171px;
+    }
+}

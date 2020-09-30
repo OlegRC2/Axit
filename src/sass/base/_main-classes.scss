@@ -1,0 +1,17 @@
+.active {
+    display: block;
+}
+.line {
+    border: none; 
+    height: 2px;
+    width: 74px;
+    margin-top: 36px;
+}
+.white {
+    background-color: white; 
+    color: white; 
+}
+.main-color {
+    background-color: $main-color; 
+    color: $main-color; 
+}
