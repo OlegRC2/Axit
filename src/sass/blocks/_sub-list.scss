@@ -36,7 +36,7 @@
         margin-left: 670px;
     }
     &__round {
-        width: 74px;
+        width: 46px;
         height: 44px;
         border: 2px solid $main-color;
         border-radius: 50%;
@@ -48,10 +48,9 @@
         margin: 0 auto;
         top: 50%;
         transform: translateY(-71%);
-        
-
     }
     &__text {
+        width: 360px;
         color: #212121;
         font-family: "Open Sans";
         font-size: 14px;
@@ -68,9 +67,4 @@
             line-height: 20px;
         }
     }
-
-
-
-
-
 }
