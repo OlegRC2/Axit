@@ -1,0 +1,31 @@
+.design {
+    min-height: 320px;
+    background: url(../img/bg_2.jpg) center (center/cover) no-repeat;
+    &__title {
+        color: #ffffff;
+        font-family: "Raleway";
+        font-size: 36px;
+        font-weight: 100;
+        text-transform: uppercase;
+        padding-top: 74px;
+        text-align: center;
+    }
+    .line {
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+    &__descr {
+        color: #ffffff;
+        opacity: 0.6;
+        font-family: "Raleway";
+        font-size: 16px;
+        font-weight: 100;
+        text-align: center;
+        margin-top: 23px;
+    }
+    .btn_design {
+        display: block;
+        margin: 0 auto;
+        margin-top: 33px;
+    }
+}

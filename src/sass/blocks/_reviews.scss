@@ -1,0 +1,104 @@
+.reviews {
+    min-height: 591px;
+    background-color: #ffffff;
+    &__title {
+        padding-top: 108px;
+        color: #212121;
+        font-family: Raleway;
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 43px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    .line {
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+    &__subtitle {
+        margin-top: 30px;
+        color: #86878b;
+        font-family: "Open Sans";
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        text-align: center;
+    }
+    &__slider {
+        margin-top: 55px;
+    }
+    &__item {
+        width: 273px;
+        height: 225px;
+        display: inline-block;
+        margin-left: 140px;
+        position: relative;
+    }
+    &__wrapper-slider {
+        width: 1925px;
+        display: inline-block;
+        justify-content: space-between;
+        :first-child {
+            margin-left: 0;
+        }
+    }
+    &__text {
+        background-color: $bg-color;
+        padding: 24px 13px 24px 12px;
+        text-align: justify;
+        color: #86878b;
+        font-family: "Open Sans";
+        font-size: 14px;
+        font-weight: 400;
+        font-style: italic;
+        line-height: 17px;
+    }
+    &__triangle {
+        width: 22px;
+        border: 11px solid transparent; 
+        border-top: 13px solid $bg-color;
+        margin-left: 24px;
+    }
+    &__name {
+        color: #333333;
+        font-family: "Open Sans";
+        font-size: 20px;
+        font-weight: 700;
+        display: inline-block;
+        margin-left: 15px;
+        margin-top: 17px;
+    }
+    &__profession {
+        position: absolute;
+        top: 201px;
+        left: 83px;
+        color: #86878b;
+        font-family: "Open Sans";
+        font-size: 14px;
+        font-weight: 400;
+        display: block;
+    }
+    &__arrow-prev {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        top: 385px;
+        left: -65px;
+        cursor: pointer;
+    }
+    &__arrow-next {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        top: 385px;
+        right: -65px;
+        cursor: pointer;
+    }
+}
+        
+    
+
+
+
+
+

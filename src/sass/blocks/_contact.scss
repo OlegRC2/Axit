@@ -1,0 +1,76 @@
+.contact {
+    min-height: 508px;
+    background-color: #ffffff;
+    &__title {
+        color: #212121;
+        font-family: "Raleway";
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 43px;
+        text-transform: uppercase;
+        text-align: center;
+        margin-top: 108px;
+    }
+    .line {
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+    &__descr {
+        color: #86878b;
+        font-family: "Open Sans";
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        text-align: center;
+        margin-top: 30px;
+    }
+    &__form {
+        position: relative;
+        margin-top: 80px;
+    }
+    &__name {
+        width: 527px;
+        height: 31px;
+        border: none;
+        border-bottom: 1px solid #bdbdbd;
+        padding: 0 14px;
+        color: #bdbdbd;
+    }
+    &__email {
+        display: block;
+        width: 527px;
+        height: 31px;
+        margin-top: 30px;
+        border: none;
+        border-bottom: 1px solid #bdbdbd;
+        padding: 0 14px;
+        color: #bdbdbd;
+    }
+    &__subject {
+        display: block;
+        width: 527px;
+        height: 31px;
+        margin-top: 30px;
+        border: none;
+        border-bottom: 1px solid #bdbdbd;
+        padding: 0 14px;
+        color: #bdbdbd;
+    }
+    &__message {
+        position: absolute;
+        width: 506px;
+        height: 153px;
+        top: 0;
+        right: 0;
+        border: none;
+        border-bottom: 1px solid #bdbdbd;
+        padding: 0 14px;
+        color: #bdbdbd;
+        resize: none;
+    }
+    .btn_main-color {
+        display: block;
+        margin: 0 auto;
+        margin-top: 43px;
+    }
+}

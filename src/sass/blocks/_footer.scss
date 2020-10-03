@@ -1,0 +1,19 @@
+footer {
+    height: 100px;
+    background-color: #000000;
+    .wrapper-icon {
+        width: 317px;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        padding-top: 21px;
+    }
+    img {
+        width: 23px;
+        height: 23px;
+    }
+    .copyright {
+        margin-top: 15px;
+        text-align: center;
+    }
+}

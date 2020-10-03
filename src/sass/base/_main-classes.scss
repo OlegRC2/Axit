@@ -15,3 +15,27 @@
     background-color: $main-color; 
     color: $main-color; 
 }
+.btn_white {
+    margin-top: 44px;
+    background-color: transparent; 
+    border: 2px solid white;
+    width: 135px;
+    height: 42px;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 15px;
+    font-weight: 400;
+}
+.btn_main-color {
+    width: 121px;
+    height: 46px;
+    background-color: $main-color;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-family: "Open Sans";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 51px;
+}
