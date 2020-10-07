@@ -25,6 +25,12 @@
     font-family: "Open Sans";
     font-size: 15px;
     font-weight: 400;
+    &:focus {
+        outline: none;
+    }
+    &:hover {
+        box-shadow: 1px 1px 10px #fff;
+    }
 }
 .btn_main-color {
     width: 121px;
@@ -38,4 +44,13 @@
     font-weight: 400;
     line-height: 20px;
     margin-top: 51px;
+    &:focus {
+        outline: none;
+    }
+    &:hover {
+        box-shadow: 1px 1px 10px $main-color;
+    }
+}
+.hide {
+    display: none;
 }

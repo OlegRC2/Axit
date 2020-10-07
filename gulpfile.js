@@ -12,6 +12,7 @@ const imagemin = require('gulp-imagemin');
 const htmlmin = require('gulp-htmlmin');
 
 const dist = "./dist";
+//const dist = "C:/openserver/domains/Test3";
 
 gulp.task("copy-html", () => {
     return gulp.src("./src/*.html")
@@ -24,12 +25,12 @@ gulp.task("build-sass", () => {
     return gulp.src("./src/sass/style.scss")
                 .pipe(sass().on('error', sass.logError))
                 .pipe(rename({suffix: '.min', prefix: ''}))
-                .pipe(gulp.dest("dist/css"))
+                .pipe(gulp.dest(dist + "/css"))
                 .pipe(browsersync.stream());
 });
 
 gulp.task("build-js", () => {
-    return gulp.src("./src/js/main.js")
+    return gulp.src("./src/js/script.js")
                 .pipe(webpack({
                     mode: 'development',
                     output: {
@@ -62,7 +63,7 @@ gulp.task("build-js", () => {
 
 gulp.task("watch", () => {
     browsersync.init({
-		server: "./dist/",
+		server: dist + "/",
 		port: 4000,
 		notify: true
     });
@@ -74,23 +75,23 @@ gulp.task("watch", () => {
 
 gulp.task("fonts", () => {
     return gulp.src("./src/fonts/**/*")
-        .pipe(gulp.dest("dist/fonts"));
+        .pipe(gulp.dest(dist + "/fonts"));
 });
 
 gulp.task("icons", () => {
     return gulp.src("./src/icons/**/*")
-        .pipe(gulp.dest("dist/icons"));
+        .pipe(gulp.dest(dist + "/icons"));
 });
 
 gulp.task("images", () => {
     return gulp.src("./src/img/**/*")
         .pipe(imagemin())
-        .pipe(gulp.dest("dist/img"));
+        .pipe(gulp.dest(dist + "/img"));
 });
 
 gulp.task("mailer", () => {
     return gulp.src("./src/mailer/**/*")
-        .pipe(gulp.dest("dist/mailer"));
+        .pipe(gulp.dest(dist + "/mailer"));
 });
 
 gulp.task("build", gulp.parallel("copy-html", "build-js", "build-sass", "fonts", "icons", "images", "mailer"));
@@ -102,7 +103,7 @@ gulp.task("prod", () => {
         .pipe(cleanCSS())
         .pipe(gulp.dest(dist));
 
-    return gulp.src("./src/js/main.js")
+    return gulp.src("./src/js/script.js")
                 .pipe(webpack({
                     mode: 'production',
                     output: {

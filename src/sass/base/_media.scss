@@ -1,0 +1,615 @@
+@media ( max-width: 1200px ) {
+    .container {
+        max-width: 950px;
+    }
+    .social {
+        &__icons {
+            width: 560px;
+        }
+    }
+    .sub-list {
+        &__title {
+            margin-left: 600px;
+        }
+        .line {
+            margin-left: 600px;
+        }
+        &__subtitle {
+            margin-left: 600px;
+        }
+        &__icon-with-text-wrapper {
+            width: 317px;
+            margin-left: 615px;
+        }
+        &__round {
+            height: 34px;
+            img {
+                width: 30px;
+                height: 20px;
+            }
+        }
+    }
+    .standart {
+        img {
+            width: 470px;
+        }
+    }
+    .pricing {
+        &__item-title {
+            width: 290px;
+        }
+        &__item-price {
+            width: 290px;
+        }
+        &__item-line {
+            width: 290px;
+        }
+        .most-popular {
+            width: 290px;
+            font-size: 12px;
+        }
+        &__item-composition {
+            width: 290px;
+        }
+    }
+    .reviews {
+        &__subtitle {
+            margin-bottom: 55px;
+        }
+        &__slider {
+            width: 800px;
+            margin: 0 auto;
+            min-height: 240px;
+        }
+        &__item {
+            width: 180px;
+            margin-left: 129px;
+            img {
+                width: 55px;
+            }
+        }
+        &__text {
+            font-size: 11px;
+        }
+        &__name {
+            font-size: 16px;
+        }
+        &__profession {
+            font-size: 13px;
+            top: 214px;
+            left: 69px;
+        }
+        &__arrow-prev {
+            left: 10px;
+        }
+        &__arrow-next {
+            right: 10px;
+        }
+    }
+    .design {
+        a {
+            position: absolute;
+            right: 50%;
+            transform: translateX(50%);
+        }
+    }
+    .contact {
+        &__name {
+            width: 450px;
+        }
+        &__email {
+            width: 450px;
+        }
+        &__subject {
+            width: 450px;
+        }
+        &__message {
+            width: 450px;
+        }
+    }
+}
+
+@media ( max-width: 991px ) {
+    .container {
+        max-width: 700px;
+    }
+    .promo {
+        &__title {
+            font-size: 24px;
+            line-height: 33px;
+        }
+        &__subtitle {
+            font-size: 14px;
+            width: 350px;
+            margin-bottom: 20px;
+        }
+        &__form {
+            width: 315px;
+        }
+        &__trial {
+            width: 315px;
+        }
+        .first-and-second-input {
+            width: 245px;
+        }
+        .third-input {
+            width: 245px;
+        }
+        .btn_form {
+            width: 315px;
+        }
+    }
+    .social {
+        &__icons {
+            width: 360px;
+            height: 35px;
+            top: 20px;
+            right: -11px;
+            img {
+                width: 35px;
+                height: 35px;
+            }
+        }
+    }
+    .tabs {
+        &__full-content-wrapper {
+            min-height: 572px;
+            padding-bottom: 20px;
+        }
+        &__tab-item {
+            width: 90px;
+            height: 90px;
+        }
+        &__tabs-wrapper {
+            justify-content: center;
+            height: 481px;
+            margin-top: 96px;
+        }
+        &__content {
+            width: 240px;
+            margin-top: 105px;
+        }
+        &__img {
+            img {
+                width: 200px;
+                height: 200px;
+                margin-top: 250px;
+            }
+        }
+    }
+    .sub-list {
+        min-height: 545px;
+        &__title {
+            margin-top: 60px;
+        }
+        img {
+            width: 400px;
+            margin-top: 142px;
+        }
+        &__title {
+            margin-left: 430px;
+        }
+        .line {
+            margin-left: 430px;
+        }
+        &__subtitle {
+            margin-left: 430px;
+        }
+        &__icon-with-text-wrapper {
+            width: 317px;
+            margin-left: 415px;
+        }
+        &__round {
+            height: 34px;
+            img {
+                margin-top: 4px;
+                width: 30px;
+                height: 20px;
+            }
+        }
+    }
+    .standart {
+        min-height: 445px;
+        &__title {
+            padding-top: 60px;
+        }
+        img {
+            width: 400px;
+            top: 85px;
+        }
+        &__descr {
+            width: 290px;
+        }
+    }
+    .awesome {
+        min-height: 540px;
+        &__title {
+            margin-top: 70px;
+        }
+        &__item {
+            width: 195px;
+        }
+    }
+    .pricing {
+        min-height: 830px;
+        &__title {
+            padding-top: 70px;
+        }
+        &__item-title {
+            width: 190px;
+        }
+        &__item-price {
+            width: 190px;
+        }
+        &__item-cost {
+            font-size: 85px;
+        }
+        &__item-line {
+            width: 190px;
+        }
+        .most-popular {
+            width: 190px;
+            font-size: 14px;
+            line-height: 16px;
+            text-align: center;
+        }
+        &__item-composition {
+            width: 190px;
+            font-size: 12px;
+        }
+    }
+    .reviews {
+        &__title {
+            padding-top: 70px;
+        }
+        &__subtitle {
+            margin-bottom: 55px;
+        }
+        &__slider {
+            width: 650px;
+            margin: 0 auto;
+            min-height: 240px;
+        }
+        &__item {
+            width: 180px;
+            margin-left: 55px;
+            img {
+                width: 55px;
+            }
+        }
+        &__text {
+            font-size: 11px;
+        }
+        &__name {
+            font-size: 16px;
+        }
+        &__profession {
+            font-size: 13px;
+            top: 214px;
+            left: 69px;
+        }
+        &__arrow-prev {
+            left: -20px;
+        }
+        &__arrow-next {
+            right: -15px;
+        }
+    }
+    .design {
+        &__title {
+            padding-top: 45px;
+        }
+        a {
+            position: absolute;
+            right: 50%;
+            transform: translateX(50%);
+        }
+    }
+    .contact {
+        &__title {
+            padding-top: 70px;
+            margin-top: 0;
+        }
+        &__form {
+            margin-top: 40px;
+        }
+        &__name {
+            width: 310px;
+        }
+        &__email {
+            width: 310px;
+        }
+        &__subject {
+            width: 310px;
+        }
+        &__message {
+            width: 310px;
+        }
+    }
+}
+
+@media ( max-width: 767px ) {
+    .container {
+        max-width: 500px;
+    }
+    .promo {
+        &__wrapper {
+            margin-top: 50px;
+            img {
+                width: 130px;
+            }
+        }
+        &__title {
+            margin-top: 22px;
+            font-size: 24px;
+            line-height: 33px;
+        }
+        .line {
+            margin-top: 20px;
+        }
+        &__subtitle {
+            margin-top: 20px;
+            font-size: 14px;
+            width: 350px;
+            margin-bottom: 20px;
+        }
+        &__form {
+            top: 271px;
+            right: 100px;
+            width: 315px;
+            height: 290px;
+        }
+        &__trial {
+            width: 315px;
+            height: 40px;
+        }
+        &__trial-text {
+            font-size: 17px;
+        }
+        .first-and-second-input {
+            width: 245px;
+            margin: 17px 37px 0px 37px;
+        }
+        .third-input {
+            width: 245px;
+            margin: 23px 37px 0px 37px;
+        }
+        .btn_form {
+            width: 315px;
+            margin-top: 40px;
+        }
+        .btn_white {
+            display: none;
+        }
+    }
+    .social {
+        &__icons {
+            width: 360px;
+            height: 35px;
+            top: -5px;
+            right: -11px;
+            img {
+                width: 35px;
+                height: 35px;
+            }
+        }
+        &__title {
+            margin-bottom: 15px;
+        }
+        &__subtitle {
+            text-align: center;
+            margin: 0 auto;
+        }
+    }
+    .tabs {
+        &__full-content-wrapper {
+            min-height: 572px;
+            padding-bottom: 20px;
+            position: relative;
+        }
+        &__tab-item {
+            width: 90px;
+            height: 90px;
+        }
+        &__tabs-wrapper {
+            position: absolute;
+            justify-content: center;
+            height: 100px;
+            margin-top: 45px;
+            flex-direction: row;
+            justify-content: center;
+            width: 500px;
+        }
+        &__tab-item {
+            margin-right: 1px;
+        }
+        &__content {
+            width: 240px;
+            margin-top: 155px;
+        }
+        &__img {
+            img {
+                width: 200px;
+                height: 200px;
+                margin-top: 250px;
+            }
+        }
+    }
+    .sub-list {
+        min-height: 545px;
+        &__title {
+            margin-top: 60px;
+        }
+        img {
+            width: 315px;
+            margin-top: 35px;
+        }
+        &__title {
+            margin-left: 330px;
+            margin-top: 40px;
+        }
+        .line {
+            margin-left: 375px;
+        }
+        &__subtitle {
+            margin-left: 330px;
+        }
+        &__icon-with-text-wrapper {
+            width: 400px;
+            margin-left: 40px;
+        }
+        &__round {
+            height: 41px;
+            img {
+                margin-top: 4px;
+                width: 38px;
+                height: 21px;
+            }
+        }
+    }
+    .standart {
+        min-height: 445px;
+        &__title {
+            padding-top: 40px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .line {
+            margin: 0 auto;
+        }
+        img {
+            width: 300px;
+            top: 175px;
+            right: -20px;
+        }
+        &__descr {
+            width: 200px;
+        }
+    }
+    .awesome {
+        min-height: 540px;
+        &__wrapper {
+            margin-top: 60px;
+        }
+        &__title {
+            margin-top: 70px;
+        }
+        &__item {
+            width: 195px;
+            &:nth-child(2) {
+                .awesome__item-subtitle {
+                    margin-top: 49px;
+                }
+            }
+        }
+    }
+    .pricing {
+        min-height: 780px;
+        &__title {
+            padding-top: 40px;
+        }
+        &__wrapper {
+            margin-top: 90px;
+        }
+        &__item-title {
+            width: 155px;
+            font-size: 18px;
+        }
+        &__item-price {
+            width: 155px;
+        }
+        &__item-cost {
+            font-size: 85px;
+        }
+        &__item-line {
+            width: 155px;
+        }
+        .most-popular {
+            width: 155px;
+            font-size: 14px;
+            line-height: 16px;
+            text-align: center;
+        }
+        &__item-composition {
+            width: 155px;
+            font-size: 12px;
+        }
+    }
+    .reviews {
+        min-height: 555px;
+        &__title {
+            padding-top: 40px;
+        }
+        &__subtitle {
+            margin-bottom: 55px;
+        }
+        &__slider {
+            width: 500px;
+            margin: 0 auto;
+            min-height: 240px;
+        }
+        &__wrapper-slider {
+            &:first-child {
+                margin-left: 47px;
+            }
+        }
+        &__item {
+            width: 180px;
+            margin-left: 47px;
+            img {
+                width: 55px;
+            }
+        }
+        &__text {
+            font-size: 11px;
+        }
+        &__name {
+            font-size: 16px;
+        }
+        &__profession {
+            font-size: 13px;
+            top: 214px;
+            left: 69px;
+        }
+        &__arrow-prev {
+            left: -20px;
+        }
+        &__arrow-next {
+            right: -15px;
+        }
+    }
+    .design {
+        &__title {
+            padding-top: 45px;
+        }
+        a {
+            position: absolute;
+            right: 50%;
+            transform: translateX(50%);
+        }
+    }
+    .contact {
+        &__title {
+            padding-top: 50px;
+            margin-top: 0;
+        }
+        &__form {
+            margin-top: 40px;
+        }
+        &__name {
+            width: 230px;
+        }
+        &__email {
+            width: 230px;
+        }
+        &__subject {
+            width: 230px;
+        }
+        &__message {
+            width: 230px;
+        }
+    }
+}
+
+
+

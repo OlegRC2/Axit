@@ -23,6 +23,14 @@
         text-align: center;
         margin-top: 23px;
     }
+    a {
+        position: absolute;
+        right: 50%;
+        transform: translateX(50%);
+    }
+    a:hover {
+        text-decoration: none;
+    }
     .btn_design {
         display: block;
         margin: 0 auto;

@@ -35,6 +35,9 @@
         height: 61px;
         text-align: justify;
     }
+    a:hover {
+        text-decoration: none;
+    }
     &__form {
         position: absolute;
         width: 360px;
@@ -96,5 +99,8 @@
         font-style: bold;
         font-size: 15px;
         font-weight: 700;
+        &:focus {
+            outline: none;
+        }
     }
 }

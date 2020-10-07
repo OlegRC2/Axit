@@ -44,8 +44,10 @@
                     euismod bibendum laoreet. Proin gravida dolor sit amet lacus
                     accumsan et viverra justo commodo.
                 </div>
-                <button class="btn_white">Download</button>
-
+                <a href="./img/test.jpg" download>
+                    <button class="btn_white">Download</button>
+                </a>
+                
                 <div class="promo__form">
                     <div class="promo__trial">
                         <div class="promo__trial-text">
@@ -117,7 +119,9 @@
                         <br>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.
                     </div>
-                    <button class="btn_main-color">Download</button>
+                    <a href="./img/test.jpg" download>
+                        <button class="btn_main-color">Download</button>
+                    </a>
                 </div>
 
                 <div class="tabs__content">
@@ -128,7 +132,9 @@
                         <br>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.
                     </div>
-                    <button class="btn_main-color">Download</button>
+                    <a href="./img/test.jpg" download>
+                        <button class="btn_main-color">Download</button>
+                    </a>
                 </div>
 
                 <div class="tabs__content">
@@ -139,12 +145,16 @@
                         <br>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.
                     </div>
-                    <button class="btn_main-color">Download</button>
+                    <a href="./img/test.jpg" download>
+                        <button class="btn_main-color">Download</button>
+                    </a>
                 </div>
 
-                <img src="icons/city.png" alt="city" class="tabs__image active">
-                <img src="icons/city-2.png" alt="city" class="tabs__image">
-                <img src="icons/city-3.png" alt="city" class="tabs__image">
+                <div class="tabs__img">
+                    <img src="icons/city.png" alt="city" class="tabs__image active">
+                    <img src="icons/city-2.png" alt="city" class="tabs__image">
+                    <img src="icons/city-3.png" alt="city" class="tabs__image">
+                </div>
             </div>
         </div>
     </section>
@@ -372,7 +382,9 @@
             <div class="design__title">STYLISH AXURE DESIGN</div>
             <div class="line white"></div>
             <div class="design__descr">Use the sections you need, remove the ones you don't.  Create gorgeous prototypes faster than ever!</div>
-            <button class="btn_white btn_design">Download</button>
+            <a href="./img/test.jpg" download>
+                <button class="btn_white btn_design">Download</button>
+            </a>
         </div>
     </section>
 
@@ -385,8 +397,8 @@
             <form action="#" class="contact__form">
                 <input class="contact__name" name="name" required placeholder="Name" type="text">
                 <input class="contact__email" name="email" required placeholder="Email" type="email">
-                <input class="contact__subject" name="text" required placeholder="Subject" type="password">
-                <textarea class="contact__message" name="text" placeholder="Message"></textarea>
+                <input class="contact__subject" name="subject" required placeholder="Subject" type="text">
+                <textarea class="contact__message" name="message" placeholder="Message"></textarea>
                 <button class="btn_main-color">Send Message</button>
             </form>
         </div>
@@ -421,5 +433,15 @@
         </div>
     </footer>
 
+    <div class="overlay">
+        <div class="modal">
+            <div class="modal__close">&times;</div>
+            <div class="modal__subtitle">Thanks!</div>
+            <div class="modal__descr">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima, repellendus!</div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>

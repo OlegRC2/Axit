@@ -14,13 +14,13 @@ $mail->CharSet = 'utf-8';
 $mail->isSMTP();                                      // Set mailer to use SMTP
 $mail->Host = 'smtp.mail.ru';  // Specify main and backup SMTP servers
 $mail->SMTPAuth = true;                               // Enable SMTP authentication
-$mail->Username = 'ferumoh@mail.ru';                 // Наш логин
-$mail->Password = '159753469';                           // Наш пароль от ящика
+$mail->Username = 'publicrc2@mail.ru';                 // Наш логин
+$mail->Password = 'mutGDA4D';                           // Наш пароль от ящика
 $mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
 $mail->Port = 465;                                    // TCP port to connect to
  
-$mail->setFrom('ferumoh@mail.ru', 'Axit');   // От кого письмо 
-$mail->addAddress('jajisef352@whmailtop.com');     // Add a recipient
+$mail->setFrom('publicrc2@mail.ru', 'Axit');   // От кого письмо 
+$mail->addAddress('ferumoh@mail.ru');     // Add a recipient
 //$mail->addAddress('ellen@example.com');               // Name is optional
 //$mail->addReplyTo('info@example.com', 'Information');
 //$mail->addCC('cc@example.com');
@@ -33,8 +33,10 @@ $mail->Subject = 'Данные';
 $mail->Body    = '
 		Пользователь оставил данные <br> 
 	Имя: ' . $name . ' <br>
-	Номер телефона: ' . $phone . '<br>
-	E-mail: ' . $email . '';
+	Тема: ' . $subject . '<br>
+	E-mail: ' . $email . '<br>
+	Сообщение: ' . $message . '<br>
+	';
 
 if(!$mail->send()) {
     return false;
