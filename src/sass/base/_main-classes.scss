@@ -16,6 +16,8 @@
     color: $main-color; 
 }
 .btn_white {
+    display: block;
+    position: relative;
     margin-top: 44px;
     background-color: transparent; 
     border: 2px solid white;
@@ -25,14 +27,23 @@
     font-family: "Open Sans";
     font-size: 15px;
     font-weight: 400;
+    span {
+        position: absolute;
+        top: 50%;
+        right: 50%;
+        transform: translate(50%, -50%);
+    }
     &:focus {
         outline: none;
     }
     &:hover {
         box-shadow: 1px 1px 10px #fff;
+        color: #fff
     }
 }
 .btn_main-color {
+    display: block;
+    position: relative;
     width: 121px;
     height: 46px;
     background-color: $main-color;
@@ -44,11 +55,18 @@
     font-weight: 400;
     line-height: 20px;
     margin-top: 51px;
+    span {
+        position: absolute;
+        top: 50%;
+        right: 50%;
+        transform: translate(50%, -50%);
+    }
     &:focus {
         outline: none;
     }
     &:hover {
         box-shadow: 1px 1px 10px $main-color;
+        color: #fff
     }
 }
 .hide {
