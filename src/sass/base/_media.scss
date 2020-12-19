@@ -328,7 +328,7 @@
     }
 }
 
-@media ( max-width: 767px ) {
+@media ( max-width: 767px ) and ( min-width: 576px ) {
     .container {
         max-width: 500px;
     }
@@ -611,5 +611,11 @@
     }
 }
 
-
-
+@media ( max-width: 575px ) {
+    .reviews {
+        &__item {
+            width: 273px;
+            margin-left: 140px;
+        }
+    }
+}

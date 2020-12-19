@@ -12,8 +12,8 @@ function slider({slide, nextArrow, prevArrow, wrapper, field}) {
         return +str.replace(/\D/g, '')                                  // replace - ищем все не числа и заменяем их на ничего, + переводим переменную в числовую
     }
 
-    const slideWidth = window.getComputedStyle(slides[1]).width,
-          slideMarginLeft = window.getComputedStyle(slides[1]).marginLeft;
+    const slideWidth = getComputedStyle(slides[1]).width,
+          slideMarginLeft = getComputedStyle(slides[1]).marginLeft;
 
     let offset = 0;                                                     // отступ влево или вправо при прокрутке слайдера
 
@@ -30,7 +30,7 @@ function slider({slide, nextArrow, prevArrow, wrapper, field}) {
     }   
 
     next.addEventListener('click', () => {
-        if (currentWidth <= 767) {
+        if (currentWidth <= 767 && currentWidth >= 576) {
             slideNext(2);
         } else {
             slideNext(3);
@@ -48,7 +48,7 @@ function slider({slide, nextArrow, prevArrow, wrapper, field}) {
     }
 
     prev.addEventListener('click', () => {
-        if (currentWidth <= 767) {
+        if (currentWidth <= 767 && currentWidth >= 576) {
             slidePrev(2);
         } else {
             slidePrev(3);

@@ -2,8 +2,7 @@ import tabs from './modules/tabs';
 import slider from './modules/slider';
 import forms from './modules/forms';
 import modal from './modules/modal';
-
-
+import fullVersionForMobile from './modules/fullVersionForMobile';
 
 
 window.addEventListener('DOMContentLoaded', () => {
@@ -17,4 +16,5 @@ window.addEventListener('DOMContentLoaded', () => {
     });
     forms('.contact__form', '.promo__main-form');
     modal('.overlay', '.modal__close');
+    fullVersionForMobile();
 });
